@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Amazon_Login_Excel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>dd5fd4c7-99ed-4b5b-9170-0715f5767a52</testSuiteGuid>
+   <testCaseLink>
+      <guid>a6defacf-ae91-4fe5-a82f-d32804afd2e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'6301750598'</defaultValue>
+         <description></description>
+         <id>38078af8-5280-4126-837e-f4230917582c</id>
+         <masked>false</masked>
+         <name>username</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Amazon/TC_Amazon_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>39929beb-6fbd-4409-a211-d07cdb219ea7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Amazon_Login_Excel/Amazon_Excel_Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>39929beb-6fbd-4409-a211-d07cdb219ea7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>38078af8-5280-4126-837e-f4230917582c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>39929beb-6fbd-4409-a211-d07cdb219ea7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>0e949d87-92c5-4907-bd5b-3405272bd4ed</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

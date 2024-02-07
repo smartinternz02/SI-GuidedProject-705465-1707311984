@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c39abe1a-1139-4ec4-a4e4-35c93e47fbe8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38078af8-5280-4126-837e-f4230917582c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e949d87-92c5-4907-bd5b-3405272bd4ed</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'6301750598'</defaultValue>
+      <description></description>
+      <id>38078af8-5280-4126-837e-f4230917582c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pavi@1283'</defaultValue>
+      <description></description>
+      <id>0e949d87-92c5-4907-bd5b-3405272bd4ed</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
